@@ -3,7 +3,7 @@
 Rasa NLU is an open-source natural language processing tool for intent classification, 
 response retrieval and entity extraction in chatbots.
 
- For example, taking a sentence like :  * "I am looking for a Mexican restaurant in the center of town" *
+ For example, taking a sentence like :  *I am looking for a Mexican restaurant in the center of town*
  
  and returning structured data (json)  like this :
  
@@ -14,11 +14,9 @@ response retrieval and entity extraction in chatbots.
   
   "entities": {
  
-    "cuisine" : "Mexican",
+      "cuisine" : "Mexican",
     
-    "location" : "center"
-    
-  }
-  
+      "location" : "center"
+      }
 }
 
